@@ -1,0 +1,74 @@
+.title {
+  text-align: center;
+  margin-bottom: 0;
+}
+.paperStyles {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  border-radius: 10px;
+  height: 90vh;
+}
+.gridPadding {
+  padding: 10px;
+}
+.container {
+  text-align: center;
+  height: 100%;
+}
+.searchbar {
+  width: 100%;
+}
+.accordianContainer {
+  width: 100%;
+}
+.studentDetailsContainer {
+  margin-bottom: 0;
+  border-bottom: 1px solid #a9a9a9;
+}
+.studentImage {
+  margin: 35px;
+  border: 1px solid #a9a9a9;
+  border-radius: 50%;
+  width: 100px;
+}
+.studentDetails {
+  padding-left: 50px;
+  text-align: left;
+}
+
+.chip {
+  margin: 3px;
+}
+
+.studentGradesContainer {
+  padding-left: 26%;
+}
+
+.studentGrades {
+  display: flex;
+  width: 100px;
+  padding-top: 0;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  margin-top: 0;
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .studentGradesContainer {
+    padding-left: 30%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 599px) {
+  .studentGradesContainer {
+    padding-left: 30%;
+  }
+
+  .studentImage {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+}
